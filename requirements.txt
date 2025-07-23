@@ -1,0 +1,30 @@
+# Core ML Libraries (CPU-optimized)
+torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+
+# Hugging Face Ecosystem
+transformers==4.35.0
+sentence-transformers==2.2.2
+tokenizers==0.14.1
+huggingface-hub==0.16.4  # Critical for cached_download compatibility
+datasets==2.14.6  # Required by sentence-transformers
+
+# Image Processing
+pillow==10.1.0
+opencv-python-headless==4.8.1.78
+
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+
+# Core Utilities
+numpy==1.26.0
+streamlit==1.32.0
+protobuf==3.20.3  # Required by sentence-transformers
+tqdm==4.66.1  # Progress bars
+typing-extensions==4.5.0  # Resolves torch conflicts
+
+# Security & Compatibility
+pyopenssl==23.2.0  # Fixes SSL issues in Hugging Face Spaces
+urllib3==1.26.18  # Stable version for all dependencies
