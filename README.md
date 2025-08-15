@@ -64,5 +64,3 @@ pip install torch torchvision torchaudio transformers streamlit librosa opencv-
 **👨‍💻 Author**
 Ashtosh Tiwari
 MSc Artificial Intelligence — Berlin, Germany
-
-# Your App Description
